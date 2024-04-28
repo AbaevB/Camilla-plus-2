@@ -13,12 +13,81 @@
 
 <body>
   <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Камилла +</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#hero">Главная <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Каталог товаров
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Я хочу купить..." aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Найти</button>
+        </form>
+      </div>
+    </nav>
   </header>
   <main class="main">
-    <section class="section">
+    <section id="hero" class="section hero">
       <div class="container">
         <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <div class="hero__left">
+              <h1 class="title hero__title">
+                Камилла +
+              </h1>
+              <span class="hero__subtitle">
+                Все самое необходимое для вашего ребенка
+              </span>
+              <p class="text hero__text">
+                Посмотрите нашу новую подборку для ухода за вашим ребенком
+              </p>
+              <a class="btn btn-primary btn-lg hero__btn" role="button" href="#">
+                Смотреть
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="hero__right">
+              <img class="hero__image" src="img/hero-image.png" alt="Молодая женщина с ребенком">
+            </div>
+          </div>
 
         </div>
       </div>
