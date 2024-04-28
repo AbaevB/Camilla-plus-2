@@ -1,1 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body  {
+  font-family: "Montserrat", sans-serif;
+  color: #446B80;
+  background-color: #E5F4FC;
+  ;
+}
+
+.title  {
+  margin: 0;
+  font-family: "Balsamiq Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hero {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../img/hero-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
